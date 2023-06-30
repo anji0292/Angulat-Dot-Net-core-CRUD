@@ -69,7 +69,7 @@ public /*static*/ class EmployeeValidation
         }
         else if (!Regex.IsMatch(employee.DOB, @"^[0-9]{2}/[0-9]{2}/[0-9]{4}$"))
         {
-            validationErrors.Add("DOB should be in yyyy-mm-dd format");
+            validationErrors.Add("DOB should be in dd/mm/yyyy format");
         }
        
 
